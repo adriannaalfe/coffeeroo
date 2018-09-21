@@ -1,0 +1,165 @@
+
+.header {
+	height: 125px;
+	background-color: black;
+	font-family: 'roboto condensed', sans-serif;
+	font-size: 24pt;
+}
+.logo {
+	padding-left: 25px;
+	padding-top: 15px;
+	float: left;
+}
+.logo:hover {
+	opacity: .75;
+	transition: .2s;
+}
+.nav {
+	word-spacing: 200px;
+	color: white;
+	float: right;
+	padding-right: 50px;
+	padding-top: 70px;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	opacity: .75;
+}
+.footer {
+	height: 200px;
+	padding-right: 25px;
+	background-color: black;
+	color: white;
+	font-family: 'roboto condensed', sans-serif;
+	text-align: right;
+}
+.about {
+	padding-right: 100px;
+}
+.follow {
+	float: right;
+}
+
+
+.footer-distributed{
+	background-color: black;
+	/*box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);*/
+	box-sizing: border-box;
+	width: 100%;
+	text-align: right;
+	/*font: bold 16px sans-serif;*/
+	font-family: 'roboto condensed', sans-serif;
+	/*font-size: 24pt;*/
+
+	padding: 55px 50px;
+	/*margin-top: 80px;*/
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+
+
+/* center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i.press{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: white;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+
+/* right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+
+.footer-distributed .footer-right i.press{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	color: white;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-right p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-right p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+	.nav {
+	font-size: 14pt;
+}
+
+}
