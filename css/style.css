@@ -28,6 +28,32 @@ a {
 a:hover {
 	opacity: .75;
 }
+
+.product {
+	background-color: #825b44;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.prod-img-container {
+	width: 70%;
+	float: left;
+}
+.prod-img {
+	margin-left: 175px;
+	height: 500px;
+	width: 500px;
+}
+
+.prod-txt {
+	color: white;
+	width: 30%;
+	text-align: center;
+	float: right;
+	margin-right: 175px;
+	font-family: 'roboto condensed', sans-serif;
+}
+
 .footer {
 	height: 200px;
 	padding-right: 25px;
